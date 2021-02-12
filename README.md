@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Demo
+You can check [demo](https://next-typescript-stater.vercel.app/)
+
 ## Usage
 
 ### Installation
@@ -32,8 +35,9 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Features
 
+- [React.js 17](https://reactjs.org/blog/2020/10/20/react-v17.html) - Blog introduce React v17.0.
 - [Next.js 10](https://nextjs.org/blog/next-10) - Blog introduce Next.js 10.
-- [Typescript](https://www.typescriptlang.org/) - Documentation of Typescript.
+- [Typescript 4](https://www.typescriptlang.org/) - Documentation of Typescript.
 
 ## Learn More
 
@@ -50,5 +54,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+---
 
 Copyright © 2021 by Danang Eko Alfianto
