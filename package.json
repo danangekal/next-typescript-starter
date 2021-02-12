@@ -1,7 +1,24 @@
 {
   "name": "next-typescript-stater",
   "version": "0.1.0",
-  "private": true,
+  "description": "Unofficial Next.js + Typescript stater with a minimalistic & latest package",
+  "author": "Danang Eko Alfianto <github.com/danangekal>",
+  "homepage": "https://github.com/danangekal/next-typescript-stater#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danangekal/next-typescript-stater.git"
+  },
+  "bugs": {
+		"url": "https://github.com/danangekal/next-typescript-stater/issues"
+	},
+  "license": "MIT",
+  "keywords": [
+    "nextjs",
+    "reactjs",
+    "typescript",
+    "nextjs-stater",
+    "nextjs-typescript"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
