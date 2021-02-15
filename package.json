@@ -1,7 +1,7 @@
 {
   "name": "next-typescript-stater",
   "version": "0.1.0",
-  "description": "Unofficial Next.js + Typescript stater with a minimalistic & latest package",
+  "description": "Unofficial Next.js + Typescript stater with a latest package",
   "author": "Danang Eko Alfianto <github.com/danangekal>",
   "homepage": "https://github.com/danangekal/next-typescript-stater#readme",
   "repository": {
@@ -28,8 +28,8 @@
     "build": "next build",
     "start": "next start",
     "telemetry": "next telemetry",
-    "lint": "eslint */**/*.{js,ts,tsx} --quiet --fix",
-    "format": "prettier */**/*.{js,ts,tsx} --write"
+    "lint": "eslint --ignore-path .gitignore \"**/*.+(js|ts|tsx)\" --quiet --fix",
+    "format": "prettier --ignore-path .gitignore \"**/*.+(js|ts|tsx|css|scss)\" --write"
   },
   "dependencies": {
     "next": "10.0.6",
@@ -62,11 +62,11 @@
   },
   "lint-staged": {
     "*.{js,ts,tsx}": [
-      "eslint --quiet --fix",
-      "prettier --write"
+      "eslint --ignore-path .gitignore --quiet --fix",
+      "prettier --ignore-path .gitignore --write"
     ],
     "*.{json,md,html}": [
-      "prettier --write"
+      "prettier --ignore-path .gitignore --write"
     ]
   }
 }

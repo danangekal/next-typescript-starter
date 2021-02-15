@@ -1,8 +1,8 @@
-import '../styles/globals.css'
-import { AppProps /*, AppContext */ } from 'next/app'
+import '../styles/globals.css';
+import { AppProps /* , AppContext */ } from 'next/app';
 
 function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return <Component {...pageProps} />;
 }
 
 // Only uncomment this method if you have blocking data requirements for
@@ -17,4 +17,4 @@ function App({ Component, pageProps }: AppProps) {
 //   return { ...appProps }
 // }
 
-export default App
+export default App;
