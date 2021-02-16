@@ -29,7 +29,7 @@
     "start": "next start",
     "telemetry": "next telemetry",
     "lint": "eslint --ignore-path .gitignore \"**/*.+(js|ts|tsx)\" --quiet --fix",
-    "format": "prettier --ignore-path .gitignore \"**/*.+(js|ts|tsx|css|scss)\" --write"
+    "format": "prettier --ignore-path .gitignore \"**/*.+(js|ts|tsx|css|scss|json|md|html)\" --write"
   },
   "dependencies": {
     "next": "10.0.6",
@@ -65,7 +65,7 @@
       "eslint --ignore-path .gitignore --quiet --fix",
       "prettier --ignore-path .gitignore --write"
     ],
-    "*.{json,md,html}": [
+    "*.{css,scss,json,md,html}": [
       "prettier --ignore-path .gitignore --write"
     ]
   }
