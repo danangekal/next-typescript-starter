@@ -1,15 +1,15 @@
 {
-  "name": "next-typescript-stater",
+  "name": "next-typescript-starter",
   "version": "0.1.0",
-  "description": "Unofficial Next.js + Typescript stater with a latest package",
+  "description": "Unofficial Next.js + Typescript starter with a latest package",
   "author": "Danang Eko Alfianto <github.com/danangekal>",
-  "homepage": "https://github.com/danangekal/next-typescript-stater#readme",
+  "homepage": "https://github.com/danangekal/next-typescript-starter#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danangekal/next-typescript-stater.git"
+    "url": "git+https://github.com/danangekal/next-typescript-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/danangekal/next-typescript-stater/issues"
+    "url": "https://github.com/danangekal/next-typescript-starter/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -18,7 +18,7 @@
     "prettier",
     "lint-staged",
     "nextjs",
-    "nextjs-stater",
+    "nextjs-starter",
     "nextjs-typescript",
     "reactjs",
     "typescript"

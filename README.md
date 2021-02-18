@@ -8,7 +8,7 @@ You can check [demo](https://next-typescript-stater.vercel.app/)
 ### Installation
 
 ```bash
-git clone https://github.com/danangekal/next-typescript-stater.git
+git clone https://github.com/danangekal/next-typescript-starter.git
 npm install or yarn install
 ```
 

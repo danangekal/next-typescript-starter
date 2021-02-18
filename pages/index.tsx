@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Next Typescript Stater</title>
+        <title>Next Typescript Starter</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
