@@ -29,7 +29,10 @@
     "start": "next start",
     "telemetry": "next telemetry",
     "lint": "eslint --ignore-path .gitignore \"**/*.+(js|ts|tsx)\" --quiet --fix",
-    "format": "prettier --ignore-path .gitignore \"**/*.+(js|ts|tsx|css|scss|json|md|html)\" --write"
+    "format": "prettier --ignore-path .gitignore \"**/*.+(js|ts|tsx|css|scss|json|md|html)\" --write",
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "tsc --noEmit --watch",
+    "test": "echo \"Write tests!\" && exit 0"
   },
   "dependencies": {
     "next": "10.0.6",
