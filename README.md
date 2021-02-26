@@ -6,23 +6,24 @@ You can check [demo](https://next-typescript-stater.vercel.app/)
 ## Usage
 
 ### Installation
+This project using node >= 10 & yarn
 
 ```bash
 git clone https://github.com/danangekal/next-typescript-starter.git
-npm install or yarn install
+yarn install
 ```
 
 #### Development
 
 ```bash
-npm run dev or yarn dev
+yarn dev
 ```
 
 #### Production
 
 ```bash
-npm run build or yarn build
-npm start or yarn start
+yarn build
+yarn start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -33,6 +34,21 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+#### Docker Build
+```bash
+docker build -t next-typescript-starter .
+```
+
+#### Docker Run
+```bash
+docker run --rm -it -p 3000:3000 next-typescript-starter
+```
+
+#### Docker Compose
+```bash
+docker-compose up
+```
+
 ## Features
 
 - [React.js 17](https://reactjs.org/blog/2020/10/20/react-v17.html) - Blog introduce React v17.0.
@@ -42,6 +58,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 - [Prettier 2](https://prettier.io/docs/en/index.html) - Documentation of Prettier.
 - [Husky 5](https://typicode.github.io/husky/#/) - Documentation of Husky.
 - [lint-staged 10](https://github.com/okonet/lint-staged) - Documentation of lint-staged.
+- [docker](https://docs.docker.com/) - Documentation of docker.
 
 ## Learn More
 
