@@ -13,15 +13,15 @@
   },
   "license": "MIT",
   "keywords": [
-    "eslint",
-    "husky",
-    "prettier",
-    "lint-staged",
     "nextjs",
     "nextjs-starter",
     "nextjs-typescript",
     "reactjs",
-    "typescript"
+    "typescript",
+    "eslint",
+    "husky",
+    "prettier",
+    "lint-staged"
   ],
   "scripts": {
     "dev": "next dev",

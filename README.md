@@ -49,6 +49,13 @@ docker run --rm -it -p 3000:3000 next-typescript-starter
 docker-compose up
 ```
 
+#### Docker Images
+You can use images available on docker hub [next-typescript-starter](https://hub.docker.com/r/danangekal/next-typescript-starter).
+
+```bash
+docker pull danangekal/next-typescript-starter
+```
+
 ## Features
 
 - [React.js 17](https://reactjs.org/blog/2020/10/20/react-v17.html) - Blog introduce React v17.0.
