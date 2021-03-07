@@ -14,10 +14,9 @@
   "license": "MIT",
   "keywords": [
     "nextjs",
-    "nextjs-starter",
-    "nextjs-typescript",
     "reactjs",
     "typescript",
+    "docker",
     "eslint",
     "husky",
     "prettier",

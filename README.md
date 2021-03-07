@@ -5,14 +5,14 @@ You can check [demo](https://next-typescript-stater.vercel.app/)
 
 ## Features
 
-- [React.js 17](https://reactjs.org/blog/2020/10/20/react-v17.html) - Blog introduce React v17.0.
-- [Next.js 10](https://nextjs.org/blog/next-10) - Blog introduce Next.js 10.
-- [Typescript 4](https://www.typescriptlang.org/) - Documentation of Typescript.
-- [Eslint 7](https://eslint.org/docs/user-guide/getting-started) - Documentation of Eslint.
-- [Prettier 2](https://prettier.io/docs/en/index.html) - Documentation of Prettier.
-- [Husky 5](https://typicode.github.io/husky/#/) - Documentation of Husky.
-- [Lint Staged 10](https://github.com/okonet/lint-staged) - Documentation of Lint Staged.
-- [Docker](https://docs.docker.com/) - Documentation of Docker.
+- [React.js 17](https://reactjs.org/blog/2020/10/20/react-v17.html) - Blog introduce react v17.0.
+- [Next.js 10](https://nextjs.org/blog/next-10) - Blog introduce next.js 10.
+- [Typescript 4](https://www.typescriptlang.org/) - Documentation of typescript.
+- [Docker](https://docs.docker.com/) - Documentation of docker.
+- [Eslint 7](https://eslint.org/docs/user-guide/getting-started) - Documentation of eslint.
+- [Prettier 2](https://prettier.io/docs/en/index.html) - Documentation of prettier.
+- [Husky 5](https://typicode.github.io/husky/#/) - Documentation of husky.
+- [Lint Staged 10](https://github.com/okonet/lint-staged) - Documentation of lint staged.
 
 ## Usage
 
