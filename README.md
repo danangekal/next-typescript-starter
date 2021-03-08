@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Demo
-You can check [demo](https://next-typescript-stater.vercel.app/)
+You can check [demo](https://next-typescript-starter-demo.vercel.app/)
 
 ## Features
 
