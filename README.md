@@ -1,6 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Demo
+
 You can check [demo](https://next-typescript-starter-demo.vercel.app/)
 
 ## Features
@@ -17,6 +18,7 @@ You can check [demo](https://next-typescript-starter-demo.vercel.app/)
 ## Usage
 
 ### Installation
+
 This project using node >= 10 & yarn
 
 ```bash
@@ -46,21 +48,25 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 #### Docker Build
+
 ```bash
 docker build -t next-typescript-starter .
 ```
 
 #### Docker Run
+
 ```bash
 docker run --rm -it -p 3000:3000 next-typescript-starter
 ```
 
 #### Docker Compose
+
 ```bash
 docker-compose up
 ```
 
 #### Docker Images
+
 You can use images available on docker hub [next-typescript-starter](https://hub.docker.com/r/danangekal/next-typescript-starter).
 
 ```bash
