@@ -18,8 +18,8 @@
     "typescript",
     "docker",
     "eslint",
-    "husky",
     "prettier",
+    "husky",
     "lint-staged"
   ],
   "scripts": {
