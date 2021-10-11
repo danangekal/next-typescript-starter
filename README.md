@@ -12,8 +12,8 @@ You can check [demo](https://next-typescript-starter-demo.vercel.app/)
 - [Docker](https://docs.docker.com/) - Documentation of docker.
 - [Eslint 7](https://eslint.org/docs/user-guide/getting-started) - Documentation of eslint.
 - [Prettier 2](https://prettier.io/docs/en/index.html) - Documentation of prettier.
-- [Husky 5](https://typicode.github.io/husky/#/) - Documentation of husky.
-- [Lint Staged 10](https://github.com/okonet/lint-staged) - Documentation of lint staged.
+- [Husky 7](https://typicode.github.io/husky/#/) - Documentation of husky.
+- [Lint Staged 11](https://github.com/okonet/lint-staged) - Documentation of lint staged.
 
 ## Usage
 
