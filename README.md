@@ -7,7 +7,7 @@ You can check [demo](https://next-typescript-starter-demo.vercel.app/)
 ## Features
 
 - [React.js 17](https://reactjs.org/blog/2020/10/20/react-v17.html) - Blog introduce react v17.0.
-- [Next.js 10](https://nextjs.org/blog/next-10) - Blog introduce next.js 10.
+- [Next.js 11](https://nextjs.org/blog/next-11) - Blog introduce next.js 11.
 - [Typescript 4](https://www.typescriptlang.org/) - Documentation of typescript.
 - [Docker](https://docs.docker.com/) - Documentation of docker.
 - [Eslint 7](https://eslint.org/docs/user-guide/getting-started) - Documentation of eslint.
