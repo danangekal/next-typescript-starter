@@ -17,9 +17,9 @@ You can check [demo](https://next-typescript-starter-demo.vercel.app/)
 
 ## Usage
 
-### Installation
+This project using node >= 14.19.2 & yarn
 
-This project using node >= 12 & yarn
+### Installation
 
 ```bash
 git clone https://github.com/danangekal/next-typescript-starter.git
