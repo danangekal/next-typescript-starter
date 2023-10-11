@@ -17,7 +17,7 @@ You can check [demo](https://next-typescript-starter-demo.vercel.app/)
 
 ## Usage
 
-This project using node >= 16.14 & yarn
+This project using node >= 16.14 & yarn 1.22.19
 
 ### Installation
 
