@@ -6,74 +6,144 @@ You can check [demo](https://next-typescript-starter-demo.vercel.app/)
 
 ## Features
 
-- [React.js 18](https://reactjs.org/blog/2022/03/29/react-v18.html) - Blog introduce react v18.0.
-- [Next.js 13](https://nextjs.org/blog/next-13) - Blog introduce next.js 13.
-- [Typescript 5](https://www.typescriptlang.org/) - Documentation of typescript.
-- [Docker](https://docs.docker.com/) - Documentation of docker.
-- [Eslint 8](https://eslint.org/docs/user-guide/getting-started) - Documentation of eslint.
-- [Prettier 3](https://prettier.io/docs/en/index.html) - Documentation of prettier.
-- [Husky 8](https://typicode.github.io/husky/#/) - Documentation of husky.
-- [Lint Staged 14](https://github.com/okonet/lint-staged) - Documentation of lint staged.
+- ⚛️ [React.js 19](https://react.dev/blog/2024/04/25/react-19) - Latest React with improved performance and new features
+- ⚡ [Next.js 15](https://nextjs.org/blog/next-15) - App framework with Turbopack support
+- 📘 [TypeScript 5](https://www.typescriptlang.org/) - Strongly typed JavaScript
+- 📦 [pnpm](https://pnpm.io/) - Fast, disk space efficient package manager
+- 🎨 [Biome](https://biomejs.dev/) - Fast formatter and linter (replaces ESLint + Prettier)
+- 🐶 [Husky 9](https://typicode.github.io/husky/#/) - Git hooks made easy
+- ✨ [Lint Staged 15](https://github.com/okonet/lint-staged) - Run linters on git staged files
+- 🐳 [Docker](https://docs.docker.com/) - Containerization support
 
-## Usage
+## Prerequisites
 
-This project using node >= 16.14 & yarn 1.22.19
+- Node.js >= 22.0.0
+- pnpm >= 9.0.0 (install via `npm install -g pnpm` or use Corepack)
+
+## Getting Started
 
 ### Installation
 
 ```bash
+# Clone repository
 git clone https://github.com/danangekal/next-typescript-starter.git
-yarn install
+cd next-typescript-starter
+
+# Install dependencies
+pnpm install
 ```
 
-#### Development
+### Development
 
 ```bash
-yarn dev
+# Start development server with Turbopack (default: http://localhost:3000)
+pnpm dev
 ```
 
-#### Production
+### Code Quality
 
 ```bash
-yarn build
-yarn start
+# Run Biome linter
+pnpm lint
+
+# Format code with Biome
+pnpm format
+
+# Run Biome check and auto-fix
+pnpm check
+
+# Type check with TypeScript
+pnpm type-check
+pnpm type-check:watch  # Watch mode
+```
+
+### Production
+
+```bash
+# Build for production
+pnpm build
+
+# Start production server
+pnpm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Project Structure
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+.
+├── pages/              # Next.js pages (Pages Router)
+│   ├── _app.tsx       # Custom App component
+│   ├── _document.tsx  # Custom Document
+│   ├── index.tsx      # Home page
+│   └── api/           # API routes
+├── components/        # React components
+├── styles/            # CSS files
+├── public/            # Static assets
+├── biome.json         # Biome configuration
+├── tsconfig.json      # TypeScript configuration
+└── next.config.js     # Next.js configuration
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**API Routes:**
+- API endpoints are available at [http://localhost:3000/api/hello](http://localhost:3000/api/hello)
+- Edit `pages/api/hello.ts` to modify the API route
+- The `pages/api` directory is mapped to `/api/*`
 
-#### Docker Build
+**Fonts:**
+- Uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to optimize and load Inter (Google Font)
+
+## Docker
+
+### Build Image
 
 ```bash
 docker build -t next-typescript-starter .
 ```
 
-#### Docker Run
+### Run Container
 
 ```bash
 docker run --rm -it -p 3000:3000 next-typescript-starter
 ```
 
-#### Docker Compose
+### Docker Compose
 
 ```bash
 docker-compose up
 ```
 
-#### Docker Images
+### Pre-built Images
 
-You can use images available on docker hub [next-typescript-starter](https://hub.docker.com/r/danangekal/next-typescript-starter).
+Pre-built images are available on Docker Hub:
 
 ```bash
 docker pull danangekal/next-typescript-starter
 ```
+
+## Git Hooks
+
+This project uses Husky 9 and lint-staged 16 to run code quality checks before commits:
+
+- **Pre-commit**: Automatically formats and lints staged files with Biome
+- **Configuration**: `.husky/pre-commit` and `.lintstagedrc.json`
+- **Workflow**: On `git commit`, Biome automatically checks and fixes all staged files
+
+## Code Style
+
+This project uses Biome for both linting and formatting:
+
+- **Linter**: Enforces code quality rules (no-console, no-unused-variables, etc.)
+- **Formatter**:
+  - Single quotes for JavaScript
+  - 2-space indentation
+  - 80 character line width
+  - Semicolons always
+  - Trailing commas
+- **Configuration**: `biome.json`
 
 ## Learn More
 
