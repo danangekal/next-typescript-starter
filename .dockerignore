@@ -3,6 +3,7 @@ node_modules
 
 # next.js
 .next
+out
 
 # vercel
 .vercel
@@ -13,10 +14,12 @@ node_modules
 
 # debug
 npm-debug.log*
+pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 # local env files
+.env*.local
 .env.local
 .env.development.local
 .env.test.local
@@ -25,3 +28,23 @@ yarn-error.log*
 # docker file
 Dockerfile
 docker-compose.yml
+
+# git
+.git
+.gitignore
+
+# ci/cd
+.github
+
+# editor
+.vscode
+.idea
+
+# testing
+coverage
+
+# misc
+*.log
+README.md
+CLAUDE.md
+LICENSE
